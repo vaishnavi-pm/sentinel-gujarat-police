@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SENTINEL — Unified AI Video Intelligence Layer</title>
+<link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">
+        <div class="brand-dot"></div>
+        <div class="brand-name">SENTINEL</div>
+      </div>
+      <div class="brand-sub">Unified AI Video<br>Intelligence Layer</div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot">
+      <p>"Sentinel doesn't replace the cameras. It makes them searchable, intelligent, verifiable and accountable."</p>
+    </div>
+  </aside>
+
+  <main id="main">
+    <div id="topbar">
+      <div class="topbar-left">
+        <span class="screen-title" id="screenTitle">Command Dashboard</span>
+        <span class="case-chip" id="caseChip">GJ-2026-0914-001</span>
+      </div>
+      <div class="topbar-right">
+        <span class="status-live"><span class="dot"></span>SYSTEM OPERATIONAL</span>
+        <span class="clock" id="clock">--:--:--</span>
+        <div class="officer-mini">
+          <div class="officer-avatar">DO</div>
+          <div class="officer-mini-text"><b>Demo Officer 047</b><br>Ahmedabad City</div>
+        </div>
+      </div>
+    </div>
+    <div id="content"></div>
+  </main>
+</div>
+<div class="toast" id="toast"><span class="dot"></span><span id="toastText"></span></div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
